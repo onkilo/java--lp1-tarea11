@@ -1,0 +1,82 @@
+package vista;
+
+import java.awt.BorderLayout;
+import java.awt.EventQueue;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import com.github.lgooddatepicker.components.DatePicker;
+import com.github.lgooddatepicker.components.DateTimePicker;
+import com.github.lgooddatepicker.components.TimePicker;
+import com.github.lgooddatepicker.optionalusertools.DateChangeListener;
+import com.github.lgooddatepicker.zinternaltools.DateChangeEvent;
+
+import javax.swing.UIManager;
+import javax.swing.JTextField;
+
+public class FrmLgoodDatePicker extends JFrame {
+
+	private JPanel contentPane;
+	private DatePicker dpPrueba1;
+	private JTextField txtMostrar;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		try {
+			UIManager.setLookAndFeel("javax.swing.plaf.nimbus.NimbusLookAndFeel");
+		} catch (Throwable e) {
+			e.printStackTrace();
+		}
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					FrmLgoodDatePicker frame = new FrmLgoodDatePicker();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the frame.
+	 */
+	public FrmLgoodDatePicker() {
+		initComponents();
+	}
+	private void initComponents() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 450, 300);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		setContentPane(contentPane);
+		contentPane.setLayout(null);
+		
+		dpPrueba1 = new DatePicker();
+		dpPrueba1.setBounds(61, 44, 249, 31);
+		contentPane.add(dpPrueba1);
+		
+		txtMostrar = new JTextField();
+		txtMostrar.setBounds(71, 96, 122, 28);
+		contentPane.add(txtMostrar);
+		txtMostrar.setColumns(10);
+	}
+	
+	
+	public void Configura(){
+		dpPrueba1.getComponentToggleCalendarButton().addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				txtMostrar.setText("Preionado");
+				
+			}
+		});
+	}
+}

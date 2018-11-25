@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<commands>
+	<addCategory
+		id="custom_1542124245863"
+		name="JCalendar"
+		description=""
+		visible="true"
+		open="true"/>
+	<addComponent
+		id="com.toedter.calendar.JDayChooser_1542124276902"
+		name="JDayChooser"
+		description="Custom component: com.toedter.calendar.JDayChooser"
+		visible="true"
+		class="com.toedter.calendar.JDayChooser"
+		category="custom_1542124245863"/>
+	<addComponent
+		id="com.toedter.calendar.JMonthChooser_1542124276902"
+		name="JMonthChooser"
+		description="Custom component: com.toedter.calendar.JMonthChooser"
+		visible="true"
+		class="com.toedter.calendar.JMonthChooser"
+		category="custom_1542124245863"/>
+	<addComponent
+		id="com.toedter.components.JLocaleChooser_1542124276902"
+		name="JLocaleChooser"
+		description="Custom component: com.toedter.components.JLocaleChooser"
+		visible="true"
+		class="com.toedter.components.JLocaleChooser"
+		category="custom_1542124245863"/>
+	<addComponent
+		id="com.toedter.calendar.JCalendar_1542124276902"
+		name="JCalendar"
+		description="Custom component: com.toedter.calendar.JCalendar"
+		visible="true"
+		class="com.toedter.calendar.JCalendar"
+		category="custom_1542124245863"/>
+	<addComponent
+		id="com.toedter.calendar.JDateChooser_1542124276902"
+		name="JDateChooser"
+		description="Custom component: com.toedter.calendar.JDateChooser"
+		visible="true"
+		class="com.toedter.calendar.JDateChooser"
+		category="custom_1542124245863"/>
+	<addComponent
+		id="com.toedter.components.JSpinField_1542124276902"
+		name="JSpinField"
+		description="Custom component: com.toedter.components.JSpinField"
+		visible="true"
+		class="com.toedter.components.JSpinField"
+		category="custom_1542124245863"/>
+	<addComponent
+		id="com.toedter.calendar.JYearChooser_1542124276902"
+		name="JYearChooser"
+		description="Custom component: com.toedter.calendar.JYearChooser"
+		visible="true"
+		class="com.toedter.calendar.JYearChooser"
+		category="custom_1542124245863"/>
+	<addCategory
+		id="custom_1542747392283"
+		name="DatePicker"
+		description=""
+		visible="true"
+		open="true"/>
+	<addComponent
+		id="com.github.lgooddatepicker.components.DatePicker_1542747423258"
+		name="DatePicker"
+		description="Custom component: com.github.lgooddatepicker.components.DatePicker"
+		visible="true"
+		class="com.github.lgooddatepicker.components.DatePicker"
+		category="custom_1542747392283"/>
+	<addComponent
+		id="com.github.lgooddatepicker.components.DateTimePicker_1542747423258"
+		name="DateTimePicker"
+		description="Custom component: com.github.lgooddatepicker.components.DateTimePicker"
+		visible="true"
+		class="com.github.lgooddatepicker.components.DateTimePicker"
+		category="custom_1542747392283"/>
+	<addComponent
+		id="com.github.lgooddatepicker.components.TimePicker_1542747423258"
+		name="TimePicker"
+		description="Custom component: com.github.lgooddatepicker.components.TimePicker"
+		visible="true"
+		class="com.github.lgooddatepicker.components.TimePicker"
+		category="custom_1542747392283"/>
+	<addComponent
+		id="com.github.lgooddatepicker.components.CalendarPanel_1542747423258"
+		name="CalendarPanel"
+		description="Custom component: com.github.lgooddatepicker.components.CalendarPanel"
+		visible="true"
+		class="com.github.lgooddatepicker.components.CalendarPanel"
+		category="custom_1542747392283"/>
+</commands>
